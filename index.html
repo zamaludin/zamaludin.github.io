@@ -1,519 +1,301 @@
 <!DOCTYPE html>
-<!-- ==============================
-    Project:        Metronic "Aircv" Frontend Freebie - Responsive HTML Template Based On Twitter Bootstrap 3.3.4
-    Version:        1.0
-    Author:         KeenThemes
-    Primary use:    Corporate, Business Themes.
-    Email:          support@keenthemes.com
-    Follow:         http://www.twitter.com/keenthemes
-    Like:           http://www.facebook.com/keenthemes
-    Website:        http://www.keenthemes.com
-    Premium:        Premium Metronic Admin Theme: http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes
-================================== -->
-<html lang="en" class="no-js">
-    <!-- BEGIN HEAD -->
-    <head>
-        <meta charset="utf-8"/>
-        <title>Zamaludin Abdulah</title>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta content="width=device-width, initial-scale=1" name="viewport"/>
-        <meta content="" name="description"/>
-        <meta content="" name="author"/>
+<html class="no-js" lang="en">
 
-        <!-- GLOBAL MANDATORY STYLES -->
-        <link href="http://fonts.googleapis.com/css?family=Hind:300,400,500,600,700" rel="stylesheet" type="text/css">
-        <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css"/>
-        <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Zamaludin Abdulah - iOS Developer</title>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+</head>
 
-        <!-- PAGE LEVEL PLUGIN STYLES -->
-        <link href="css/animate.css" rel="stylesheet">
-
-        <!-- THEME STYLES -->
-        <link href="css/layout.min.css" rel="stylesheet" type="text/css"/>
-
-        <!-- Favicon -->
-        <link rel="shortcut icon" href="img/favicon.ico"/>
-    </head>
-    <!-- END HEAD -->
-
-    <!-- BODY -->
-    <body id="body" data-spy="scroll" data-target=".header">
-
-        <!--========== HEADER ==========-->
-        <header class="header navbar-fixed-top">
-            <!-- Navbar -->
-            <nav class="navbar" role="navigation">
-                <div class="container">
-                    <!-- Brand and toggle get grouped for better mobile display -->
-                    <div class="menu-container js_nav-item">
-                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="toggle-icon"></span>
-                        </button>
-
-                        <!-- Logo -->
-                        <div class="logo">
-                            <a class="logo-wrap" href="#body">
-                                <!-- <img class="logo-img logo-img-main" src="img/logo.png" alt="Asentus Logo">
-                                <img class="logo-img logo-img-active" src="img/logo-dark.png" alt="Asentus Logo"> -->
-                            </a>
-                        </div>
-                        <!-- End Logo -->
-                    </div>
-
-                    <!-- Collect the nav links, forms, and other content for toggling -->
-                    <div class="collapse navbar-collapse nav-collapse">
-                        <div class="menu-container">
-                            <ul class="nav navbar-nav navbar-nav-right">
-                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#body">Home</a></li>
-                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#about">About</a></li>
-                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#experience">Experience</a></li>
-                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#work">Work</a></li>
-                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#contact">Contact</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!-- End Navbar Collapse -->
-                </div>
-            </nav>
-            <!-- Navbar -->
-        </header>
-        <!--========== END HEADER ==========-->
-
-        <!--========== SLIDER ==========-->
-        <div class="promo-block parallax-window" data-parallax="scroll" data-image-src="img/header.jpg">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-6">
-                        <div class="promo-block-divider">
-                            <h1 class="promo-block-title">Zamaludin <br/> Abdulah</h1>
-                            <p class="promo-block-text">Software Engineer</p>
-                        </div>
-                        <ul class="list-inline">
-                            <li><a href="https://www.linkedin.com/in/zamaludin" class="social-icons"><i class="icon-social-linkedin"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-                <!--// end row -->
-            </div>
+<body>
+    <div id="mobile-menu-open" class="shadow-large">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+    </div>
+    <!-- End #mobile-menu-toggle -->
+    <header>
+        <div id="mobile-menu-close">
+            <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
         </div>
-        <!--========== SLIDER ==========-->
+        <ul id="menu" class="shadow">
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#experience">Experience</a>
+            </li>
+            <li>
+                <a href="#education">Education</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#skills">Skills</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+    </header>
+    <!-- End header -->
 
-        <!--========== PAGE LAYOUT ==========-->
-        <!-- About -->
-        <div id="about">
-            <div class="container content-lg">
-                <div class="row">
-                    <div class="col-sm-3 sm-margin-b-30">
-                        <div class="text-right sm-text-left">
-                            <h2 class="margin-b-0">Intro</h2>
-                            <p>What I am all about.</p>
-                        </div>
-                    </div>
-                    <div class="col-sm-8 col-sm-offset-1">
-                        <div class="margin-b-60">
-                            <p>Fresh graduate. Programmer with 3+ years of experience developing, testing, and maintaining software applications. The winner of International Robotics Competition in 2016.  developed 5+ applications from use cases and functional requirements. 
-                            
-                        </div>
-
-                        <!-- Progress Box -->
-                        <div class="progress-box">
-                            <h5>PHP <span class="color-heading pull-right">87%</span></h5>
-                            <div class="progress">
-                                <div class="progress-bar bg-color-base" role="progressbar" data-width="87"></div>
-                            </div>
-                        </div>
-                        <div class="progress-box">
-                            <h5>Swift <span class="color-heading pull-right">75%</span></h5>
-                            <div class="progress">
-                                <div class="progress-bar bg-color-base" role="progressbar" data-width="75"></div>
-                            </div>
-                        </div>
-                        <div class="progress-box">
-                            <h5>Java <span class="color-heading pull-right">85%</span></h5>
-                            <div class="progress">
-                                <div class="progress-bar bg-color-base" role="progressbar" data-width="85"></div>
-                            </div>
-                        </div>
-                        <div class="progress-box">
-                            <h5>AI (NLP) <span class="color-heading pull-right">75%</span></h5>
-                            <div class="progress">
-                                <div class="progress-bar bg-color-base" role="progressbar" data-width="75"></div>
-                            </div>
-                        </div>
-                        <!-- End Progress Box -->
-                    </div>
-                </div>
-                <!--// end row -->
-            </div>
+    <div id="lead">
+        <div id="lead-content">
+            <h1>Zamaludin Abdulah</h1>
+            <h2>iOS Developer</h2>
+            <a href="#" class="btn-rounded-white">Download Resume</a>
         </div>
-        <!-- End About -->
+        <!-- End #lead-content -->
 
-        <!-- Experience -->
-        <div id="experience">
-            <div class="bg-color-sky-light" data-auto-height="true">
-                <div class="container content-lg">
-                    <div class="row">
-                        <div class="col-sm-3 sm-margin-b-30">
-                            <div class="text-right sm-text-left">
-                                <h2 class="margin-b-0">Experience</h2>
-                                <p>Batman would be jealous.</p>
-                            </div>
-                        </div>
-                        <div class="col-sm-8 col-sm-offset-1">
-                            <div class="row row-space-2 margin-b-4">
-                                <div class="col-md-4 md-margin-b-4">
-                                    <div class="service" data-height="height">
-                                        <div class="service-element">
-                                            <i class="service-icon icon-chemistry"></i>
-                                        </div>
-                                        <div class="service-info">
-                                            <h3>Laravel</h3>
-                                            <p class="margin-b-5">Build a website that can accommodate large data</p>
-                                        </div>
-                                        
-                                    </div>
-                                </div>
-                                <div class="col-md-4 md-margin-b-4">
-                                    <div class="service bg-color-base wow zoomIn" data-height="height" data-wow-duration=".3" data-wow-delay=".1s">
-                                        <div class="service-element">
-                                            <i class="service-icon color-white icon-screen-tablet"></i>
-                                        </div>
-                                        <div class="service-info">
-                                            <h3 class="color-white">iOS Development</h3>
-                                            <p class="color-white margin-b-5">Build smooth app with swift native</p>
-                                        </div>
-                                        <a href="https://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes" class="content-wrapper-link"></a>    
-                                    </div>
-                                </div>
-                                <div class="col-md-4">
-                                    <div class="service" data-height="height">
-                                        <div class="service-element">
-                                            <i class="service-icon icon-screen-tablet"></i>
-                                        </div>
-                                        <div class="service-info">
-                                            <h3>Android </h3>
-                                            <p class="margin-b-5">Build complex and realtime app</p>
-                                        </div>
-                                        <a href="https://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes" class="content-wrapper-link"></a>    
-                                    </div>
-                                </div>
-                            </div>
-                            <!--// end row -->
-                        </div>
-                    </div>
-                    <!--// end row -->
+        <div id="lead-overlay"></div>
+
+        <div id="lead-down">
+            <span>
+                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            </span>
+        </div>
+        <!-- End #lead-down -->
+    </div>
+    <!-- End #lead -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h2 class="heading">About Me</h2>
+                </div>
+                <div class="col-md-8">
+                    <p>
+                        iOS Developer with 4+ years of experience developing, testing, and maintaining software applications. Developed 10+ applications from use cases and functional requirements. Fast learner and strong problem solving skill with an analytical mindset.
+                    </p>
                 </div>
             </div>
         </div>
-        <!-- End Experience -->
+    </div>
+    <!-- End #about -->
 
-        <!-- Work -->
-        <div id="work">
-            <div class="container content-lg">
-                <div class="row">
-                    <div class="col-sm-3 sm-margin-b-30">
-                        <div class="text-right sm-text-left">
-                            <h2 class="margin-b-0">Works</h2>
-                            <p>I build the real value.</p>
-                        </div>
+    <div id="experience" class="background-alt">
+        <h2 class="heading">Experience</h2>
+        <div id="experience-timeline">
+            <div data-date="Feb 2021 – Present">
+                <h3>Muslimlife (PT. Digital Kreasi Muslim)</h3>
+                <h4>iOS Developer</h4>
+                <p>
+                    <ul>
+                        <li>
+                            Develop and publish iOS Platform for Muslimlife Apps, Tamiang Pande, and Baitul Mal Banda Aceh.
+                        </li>
+                        <li>
+                            Ensure the performance, quality, and responsiveness of application
+                        </li>
+                        <li>
+                            Develop and deploy CI/CD script for automation apps delivery
+                        </li>
+                        <li>
+                            Design and implement user engagement and funnel analytics
+                        </li>
+                        <li>
+                            Maintain code quality, organize architecture pattern, and automatization
+                        </li>
+                        <li>
+                            Determine software architecture for Muslimlife Apps
+                        </li>
+                        <li>
+                            Identifying potential problems and resolving application bottlenecks.
+                        </li>
+                    </ul>
+                </p>
+            </div>
+
+            <div data-date="Jun 2018 – Feb 2021">
+                <h3>GITS Indonesia</h3>
+                <h4>iOS Developer</h4>
+                <p>
+                    <ul>
+                        <li>
+                            Develop and publish iOS Platform for MyTMIN Toyota, Born to Sweat (Otsuka), JRku (Jasa Raharja), Manulife, and Tenggo.
+                        </li>
+                        <li>
+                            Ensure the performance, quality, and responsiveness of application
+                        </li>
+                        <li>
+                            Identify and correct bottlenecks and fix bugs
+                        </li>
+                        <li>
+                            Maintain code quality, organize architecture pattern, and automatization
+                        </li>
+                        <li>
+                            Identifying potential problems and resolving application bottlenecks.
+                        </li>
+                    </ul>
+                </p>
+            </div>
+
+        </div>
+    </div>
+    <!-- End #experience -->
+
+    <div id="education">
+        <h2 class="heading"> Education   </h2>
+        <div class="education-block">
+            <h3>Indonesia Computer University</h3>
+            <span class="education-date">2013 - 2018</span>
+            <h4>Bachelor Degree of Informatics Engineering</h4>
+            <p>
+                GPA 3.14 (out of 4.00. 144 credits taken).
+            </p>
+        </div>
+        <!-- End .education-block -->
+
+        
+        <!-- End .education-block -->
+    </div>
+    <!-- End #education -->
+    
+
+    <div id="projects" class="background-alt">
+        <h2 class="heading">Projects</h2>
+        <div class="container">
+            <div class="row">
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img width=300 src="https://is4-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/52/b1/2d/52b12dab-85cd-ad7b-097e-1b5e6ad4fcda/d0c29672-6206-4d37-848b-9d88adac0d4d_iOS_6_U002c5__Klinik_Al-Fatihah.jpg/460x0w.webp" />
                     </div>
-                    <div class="col-sm-8 col-sm-offset-1">
-                        <!-- Masonry Grid -->
-                        <div class="masonry-grid row row-space-2">
-                            <div class="masonry-grid-sizer col-xs-6 col-sm-6 col-md-1"></div>
-                            <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-8 margin-b-4">
-                                <!-- Work -->
-                                <div class="work work-popup-trigger">
-                                    <div class="work-overlay">
-                                        <img class="full-width img-responsive" src="img/porto2 - ais.png" alt="Portfolio Image">
-                                    </div>
-                                    <div class="work-popup-overlay">
-                                        <div class="work-popup-content">
-                                                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-                                            <a href="javascript:void(0);" class="work-popup-close">Hide</a>
-                                            <div class="margin-b-0">
-                                                <h3 class="margin-b-0">AIS Autocare</h3>
-                                                <span>Android & Fullstack</span>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-sm-8 work-popup-content-divider sm-margin-b-0">
-                                                    <div class="margin-t-0 sm-margin-t-0">
-                                                        
-                                                        <div class="text desc"><div>[PUBLIC APPLICATION]</div><p>Responsible for building application called "AIS AUTO CARE", basically this app is "GOAUTO LIKE" app can bring a mechanic to user's house for repairing their car or just washing they car. This app is full stack app that i make from front end to back end.&nbsp;</p><div><p>App link :&nbsp;<a href="https://play.google.com/store/apps/details?id=com.aisautocare.mobile&amp;hl=in" rel="nofollow">https://play.google.com/store/apps/details?id=com.aisautocare.mobile&amp;hl=in</a></p><div><p><br></p><b>Android Spesification</b><p></p><ul><li>Real-time GPS Tracking</li><li>Android Notification</li><li>using REST API&nbsp;</li><li>User Rating&nbsp;</li><li>User Complaining</li><li>Payment</li></ul><p><br></p><p><b>API Spesification</b></p><ul><li>Using Laravel&nbsp;</li><li>REST API&nbsp;</li><li>Handling Notification&nbsp;</li><li>Handing Real-time GPS Tracking</li></ul><p><br></p><p><b>WEB ADMIN&nbsp;</b><span><b>Spesification</b></span></p><ul><li>Using Larvel</li><li>Geographic information system (GIS) for mechanic location</li><li>Management of User</li><li>Management of Mechanic</li><li>Management of Order</li><li>Management of Transaction</li><li>Management of Car and Brand</li></ul><p><br></p><p>etc.</p></div></div></div>
-                                                        <p>App link : <a href="https://play.google.com/store/apps/details?id=com.aisautocare.mobile&hl=in">https://play.google.com/store/apps/details?id=com.aisautocare.mobile&hl=in</a></p>
-                                                        <img class="full-width img-responsive" src="img/porto2-detail.png" alt="Portfolio Image">
-                                                        <ul class="list-inline work-popup-tag">
-                                                            <li class="work-popup-tag-item"><a class="work-popup-tag-link" href=" ">Android,</a></li>
-                                                            <li class="work-popup-tag-item"><a class="work-popup-tag-link" href=" ">Laravel,</a></li>
-                                                            <li class="work-popup-tag-item"><a class="work-popup-tag-link" href=" ">Fullstack</a></li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                                <div class="col-sm-4">
-                                                    <div class="margin-t-10 sm-margin-t-0">
-                                                        <p class="margin-b-5"><strong>Project Leader:</strong> Zamaludin Abdulah</p>
-                                                        <p class="margin-b-5"><strong>Designer:</strong> Michael Agustian</p>
-                                                        <p class="margin-b-5"><strong>Developer:</strong> Ihsan Faturohman</p>
-                                                        <p class="margin-b-5"><strong>Customer:</strong> AIS Aki Jogja</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- End Work -->
-                            </div>
-                            <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 margin-b-4">
-                                <!-- Work -->
-                                <div class="work work-popup-trigger">
-                                    <div class="work-overlay">
-                                        <img class="full-width img-responsive" src="img/porto3.png" alt="Portfolio Image">
-                                    </div>
-                                    <div class="work-popup-overlay">
-                                        <div class="work-popup-content">
-                                            <a href="javascript:void(0);" class="work-popup-close">Hide</a>
-                                            <div class="margin-b-30">
-                                                <h3 class="margin-b-5">Web Admin for Visiary</h3>
-                                                <span>Web</span>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-sm-8 work-popup-content-divider sm-margin-b-20">
-                                                    <div class="margin-t-10 sm-margin-t-0">
-                                                        <p>Manage transaction for startup called "Visiary"</p>
-                                                        <img class="full-width img-responsive" src="img/porto3.png" alt="Portfolio Image">
-                                                        <ul class="list-inline work-popup-tag">
-                                                            <li class="work-popup-tag-item"><a class="work-popup-tag-link" href=" ">Laravel,</a></li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                                <div class="col-sm-4">
-                                                    <div class="margin-t-10 sm-margin-t-0">
-                                                        <p class="margin-b-5"><strong>Developer:</strong>Zamaludin Abdulah</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- End Work -->
-                            </div>
-                            <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 md-margin-b-4">
-                                <!-- Work -->
-                                <div class="work work-popup-trigger">
-                                    <div class="work-overlay">
-                                        <img class="full-width img-responsive" src="img/porto4.png" alt="Portfolio Image">
-                                    </div>
-                                    <div class="work-popup-overlay">
-                                        <div class="work-popup-content">
-                                            <a href="javascript:void(0);" class="work-popup-close">Hide</a>
-                                            <div class="margin-b-30">
-                                                <h3 class="margin-b-5">Sales & Stock Management</h3>
-                                                <span>Web</span>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-sm-8 work-popup-content-divider sm-margin-b-20">
-                                                    <div class="margin-t-10 sm-margin-t-0">
-                                                        <p>Responsible for building Inventory Management Software for CV. Goma Gemilang.
-
-                                                            <br>
-
-                                                            Responsibilities:
-                                                            <br>
-                                                            Dahsboard<br>
-                                                            Management of user<br>
-                                                            Management of payment<br>
-                                                            Management of Item<br>
-                                                            Management of Stock<br>
-                                                            Management of Supplier<br>
-                                                            Management of Customer<br>
-                                                            etc.</p>
-                                                            <img class="full-width img-responsive" src="img/porto4.png" alt="Portfolio Image">
-                                                        <ul class="list-inline work-popup-tag">
-                                                            <li class="work-popup-tag-item"><a class="work-popup-tag-link" href=" ">Laravel,</a></li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                                <div class="col-sm-4">
-                                                    <div class="margin-t-10 sm-margin-t-0">
-                                                        <p class="margin-b-5"><strong>Developer:</strong>Zamaludin Abdulah</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- End Work -->
-                            </div>
-                            <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 md-margin-b-4">
-                                <!-- Work -->
-                                <div class="work work-popup-trigger">
-                                    <div class="work-overlay">
-                                        <img class="full-width img-responsive" src="img/porto1.png" alt="Portfolio Image">
-                                    </div>
-                                    <div class="work-popup-overlay">
-                                        <div class="work-popup-content">
-                                            <a href="javascript:void(0);" class="work-popup-close">Hide</a>
-                                            <div class="margin-b-30">
-                                                <h3 class="margin-b-5">Web Admin JualbeliKopi</h3>
-                                                <span>Web</span>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-sm-8 work-popup-content-divider sm-margin-b-20">
-                                                    <div class="margin-t-10 sm-margin-t-0">
-                                                        <p>Responsible for building Web admin for e-commerce called "Jualbelikopi".
-
-
-                                                            <br>
-                                                            Responsibilities:
-                                                            <br>
-                                                            Dashboard<br>
-                                                            Management of user<br>
-                                                            Management of payment<br>
-                                                            Management of Item<br>
-                                                            Management of Product<br>
-                                                            Management of Store<br>
-                                                            Management of Customer<br>
-                                                            Management of Brand<br>
-                                                            Management of Transaction<br>
-                                                            Management of Return of goods<br>
-                                                            etc.</p>
-                                                        <ul class="list-inline work-popup-tag">
-                                                            <li class="work-popup-tag-item"><a class="work-popup-tag-link" href=" ">Laravel,</a></li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                                <div class="col-sm-4">
-                                                    <div class="margin-t-10 sm-margin-t-0">
-                                                        <p class="margin-b-5"><strong>Developer:</strong> Zamaludin Abdulah</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- End Work -->
-                            </div>
-                            <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4">
-                                <!-- Work -->
-                                <!-- <div class="work work-popup-trigger">
-                                    <div class="work-overlay">
-                                        <img class="full-width img-responsive" src="img/397x300/03.jpg" alt="Portfolio Image">
-                                    </div>
-                                    <div class="work-popup-overlay">
-                                        <div class="work-popup-content">
-                                            <a href="javascript:void(0);" class="work-popup-close">Hide</a>
-                                            <div class="margin-b-30">
-                                                <h3 class="margin-b-5">Art Of Coding</h3>
-                                                <span>Clean &amp; Minimalistic Design</span>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-sm-8 work-popup-content-divider sm-margin-b-20">
-                                                    <div class="margin-t-10 sm-margin-t-0">
-                                                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
-                                                        <ul class="list-inline work-popup-tag">
-                                                            <li class="work-popup-tag-item"><a class="work-popup-tag-link" href=" ">Design,</a></li>
-                                                            <li class="work-popup-tag-item"><a class="work-popup-tag-link" href=" ">Coding,</a></li>
-                                                            <li class="work-popup-tag-item"><a class="work-popup-tag-link" href=" ">Portfolio</a></li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                                <div class="col-sm-4">
-                                                    <div class="margin-t-10 sm-margin-t-0">
-                                                        <p class="margin-b-5"><strong>Project Leader:</strong> John Doe</p>
-                                                        <p class="margin-b-5"><strong>Designer:</strong> Alisa Keys</p>
-                                                        <p class="margin-b-5"><strong>Developer:</strong> Mark Doe</p>
-                                                        <p class="margin-b-5"><strong>Customer:</strong> Keenthemes</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div> -->
-                                <!-- End Work -->
-                            </div>
-                        </div>
-                        <!-- End Masonry Grid -->
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Muslimlife</h3>
+                        <p>
+                            Muslimlife is a learning platform for Muslims in Indonesia that can help Muslims get closer to Allah SWT, aiming to help people become role models with a learner nature, love to share, and are also productive..
+                        </p>
+                        <a href="#">View Project</a>
                     </div>
+                    <!-- End .project-info -->
                 </div>
-                <!--// end row -->
+                <!-- End .project -->
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img width=300 src="https://is4-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/94/fc/32/94fc32d1-bfde-b2dc-8812-996ddb943f41/382df472-8b57-46bc-b56f-8895dc94539f_iOS_-_7_-6.png/460x0w.webp" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Born to Sweat</h3>
+                        <p>
+                            Born to Sweat is a mobile application by POCARI SWEAT that will accompany your running and cycling journey. With a variety of new amusing features, create healthy fun activities as your new healthy lifestyle.
+                        </p>
+                        <a href="#">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
             </div>
         </div>
-        <!-- End Work -->
-            
-        <!-- Contact -->
-        <div id="contact">
-            <div class="bg-color-sky-light">
-                <div class="container content-lg">
-                    <div class="row">
-                        <div class="col-sm-3 sm-margin-b-30">
-                            <div class="text-right sm-text-left">
-                                <h2 class="margin-b-0">Contacts</h2>
-                                <p>for job or collaboration.</p>
-                            </div>
-                        </div>
-                        <div class="col-sm-8 col-sm-offset-1">
-                            <div class="row">
-                                <div class="col-md-3 col-xs-6 md-margin-b-30">
-                                    <h5>Location</h5>
-                                    Bandung, ID
-                                </div>
-                                <div class="col-md-3 col-xs-6">
-                                    <h5>Email</h5>
-                                    <a href="mailto:zamaludin@live.com">zamaludin@live.com</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--// end row -->
+    </div>
+    <!-- End #projects -->
+
+    <div id="education">
+        <h2 class="heading"> Awards   </h2>
+        <div class="education-block">
+            <h3>Indonesia Computer University</h3>
+            <span class="education-date">2013 - 2018</span>
+            <h4>Bachelor Degree of Informatics Engineering</h4>
+            <p>
+                GPA 3.14 (out of 4.00. 144 credits taken).
+            </p>
+        </div>
+        <!-- End .education-block -->
+
+    </div>
+    <!-- End #education -->
+
+    <div id="skills">
+        <h2 class="heading">Skills</h2>
+        <ul>
+            <li>Swift</li>
+            <li>CI/CD Automation - Gitlab</li>
+            <li>UIKit</li>
+            <li>Storyboard</li>
+            <li>VIPER</li>
+            <li>RESTfulAPI</li>
+            <li>Alamofire</li>
+            <li>Google Cloud SDK</li>
+            <li>Facebook SDK</li>
+            <li>AutoLayout</li>
+            <li>Core Location</li>
+            <li>MapKit</li>
+            <li>Google Analytics s</li>
+            <li>Appsflyer</li>
+            <li>Push Notifications</li>
+            <li>Testflight</li>
+            <li>GitHub</li>
+            <li>Laravel</li>
+        </ul>
+    </div>
+    <!-- End #skills -->
+
+    <div id="contact">
+        <h2>Get in Touch</h2>
+        <div id="contact-form">
+            <form method="POST" action="https://formspree.io/email@email.com">
+                <input type="hidden" name="_subject" value="Contact request from personal website" />
+                <input type="email" name="_replyto" placeholder="Your email" required>
+                <textarea name="message" placeholder="Your message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+        <!-- End #contact-form -->
+    </div>
+    <!-- End #contact -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5 copyright">
+                    <p>
+                        Copyright &copy; <span id="current-year">2022</span> YOUR NAME
+                    </p>
+                </div>
+                <div class="col-sm-2 top">
+                    <span id="to-top">
+                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                    </span>
+                </div>
+                <div class="col-sm-5 social">
+                    <ul>
+                        <li>
+                            <a href="https://github.com/" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://stackoverflow.com/" target="_blank"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://linkedin.com/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
-        <!-- End Contact -->
-        <!--========== END PAGE LAYOUT ==========-->
+    </footer>
+    <!-- End footer -->
 
-        <!--========== FOOTER ==========-->
-        <footer class="footer">
-            <div class="content container">
-                <div class="row">
-                    <div class="col-xs-6">
-                        <!-- <img class="footer-logo" src="img/logo-dark.png" alt="Aircv Logo"> -->
-                    </div>
-                    <div class="col-xs-6 text-right sm-text-left">
-                        <p class="margin-b-0"><a class="fweight-700" href=" preview/aircv/">Aircv</a> Theme Powered by: <a class="fweight-700" href="http://www.keenthemes.com/">KeenThemes.com</a></p>
-                    </div>
-                </div>
-                <!--// end row -->
-            </div>
-        </footer>
-        <!--========== END FOOTER ==========-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/scripts.min.js"></script>
+</body>
 
-        <!-- Back To Top -->
-        <a href="javascript:void(0);" class="js-back-to-top back-to-top">Top</a>
-
-        <!-- JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
-        <!-- CORE PLUGINS -->
-        <script src="vendor/jquery.min.js" type="text/javascript"></script>
-        <script src="vendor/jquery-migrate.min.js" type="text/javascript"></script>
-        <script src="vendor/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
-
-        <!-- PAGE LEVEL PLUGINS -->
-        <script src="vendor/jquery.easing.js" type="text/javascript"></script>
-        <script src="vendor/jquery.back-to-top.js" type="text/javascript"></script>
-        <script src="vendor/jquery.smooth-scroll.js" type="text/javascript"></script>
-        <script src="vendor/jquery.wow.min.js" type="text/javascript"></script>
-        <script src="vendor/jquery.parallax.min.js" type="text/javascript"></script>
-        <script src="vendor/jquery.appear.js" type="text/javascript"></script>
-        <script src="vendor/masonry/jquery.masonry.pkgd.min.js" type="text/javascript"></script>
-        <script src="vendor/masonry/imagesloaded.pkgd.min.js" type="text/javascript"></script>
-
-        <!-- PAGE LEVEL SCRIPTS -->
-        <script src="js/layout.min.js" type="text/javascript"></script>
-        <script src="js/components/progress-bar.min.js" type="text/javascript"></script>
-        <script src="js/components/masonry.min.js" type="text/javascript"></script>
-        <script src="js/components/wow.min.js" type="text/javascript"></script>
-
-    </body>
-    <!-- END BODY -->
 </html>
